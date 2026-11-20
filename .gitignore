@@ -1,0 +1,21 @@
+node_modules/
+.git-task/
+.next/
+.next-local/
+out/
+coverage/
+
+# Local environment credentials
+.env
+.env.*
+!.env.example
+
+# Local patient records and generated database files
+data/
+
+# Logs and OS/editor files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
